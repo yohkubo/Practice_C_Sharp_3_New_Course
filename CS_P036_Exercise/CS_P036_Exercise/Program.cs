@@ -10,13 +10,16 @@ namespace CS_P036_Exercise
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Rectangular volume calculation.\nType Height, Width and Length with inch.");
+            Console.WriteLine("Rectangular volume calculation.\nType Height, Width and Length in inch.");
             Calculation calculation = new Calculation();
+            Console.Write("Height: ");
             calculation.Height = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Width: ");
             calculation.Width = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Length: ");
             calculation.Length = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine("The volume of this rectangular is: " + calculation.Volume() + "cubic inches");
+            Console.WriteLine("The volume of this rectangular is: " + calculation.Volume().ToString("N0") + " cubic inches");
             Console.Read();
         }
     }
