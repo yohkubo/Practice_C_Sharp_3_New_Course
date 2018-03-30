@@ -27,14 +27,14 @@ namespace CS_P038_Exercise
                     switch (topic)
                     {
                         case 1:
-                            Console.WriteLine("What's the temperature in Fahrenheit? This is converting to Celcius. Do not input fraction.");
+                            Console.WriteLine("What's the temperature in Fahrenheit? This is converting into Celcius. Do not input fraction.");
                             // passing a integer value 
                             result = calculation.Status(Convert.ToInt16(Console.ReadLine()));
                             vali = true;
                             break;
 
                         case 2:
-                            Console.WriteLine("How many dollers in your wallet? This is converting japanese yen.");
+                            Console.WriteLine("How many dollers in your wallet? This is converting it into japanese yen.");
                             //passing a Decimal value
                             result = calculation.Status(Convert.ToDecimal(Console.ReadLine()));
                             vali = true;
