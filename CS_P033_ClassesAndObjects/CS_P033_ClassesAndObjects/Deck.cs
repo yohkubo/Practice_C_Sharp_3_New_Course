@@ -31,5 +31,23 @@ namespace CS_P033_ClassesAndObjects
         }
 
         public List<Card> Cards { get; set; }
+
+        public void Shuffle(int times = 1)
+        {
+            for (int i = 0; i < times; i++)
+            {
+                List<Card> TempList = new List<Card>();
+                Random random = new Random();
+
+                while (Cards.Count > 0)
+                {
+                    int num = random.Next(0, Cards.Count);
+                    TempList.Add(Cards[num]);
+                    Cards.RemoveAt(num);
+                }
+                this.Cards = TempList;
+            }
+            
+        }
     }
 }
