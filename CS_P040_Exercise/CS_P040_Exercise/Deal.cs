@@ -28,7 +28,7 @@ namespace CS_P040_Exercise
             }
             
             Console.WriteLine("You inputed {0} and {1}. Then this multiplied " +
-                "{0} to itself {1} times.\nResult: {2:N0}",
+                "{0} to itself {1} times. ({0} to the power of {1})\nResult: {2:N0}",
                 num1, num2, result);
         }
     }

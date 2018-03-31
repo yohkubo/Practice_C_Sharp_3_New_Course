@@ -8,5 +8,11 @@ namespace CS_P042_Exercise
 {
     class Divide
     {
+        public static void divide(int num)
+        {
+            int result = num / 2;
+
+        }
+
     }
 }

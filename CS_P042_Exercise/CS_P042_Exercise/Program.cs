@@ -10,6 +10,7 @@ namespace CS_P042_Exercise
     {
         static void Main(string[] args)
         {
+
         }
     }
 }
