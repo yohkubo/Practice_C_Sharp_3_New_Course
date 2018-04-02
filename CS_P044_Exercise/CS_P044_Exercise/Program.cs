@@ -10,6 +10,12 @@ namespace CS_P044_Exercise
     {
         static void Main(string[] args)
         {
+            Employee sample = new Employee() {FirstName = "Sample", LastName = "Student", Id = 01 };
+
+            sample.SayName();
+
+            Console.WriteLine(sample.Id);
+            Console.ReadLine();
         }
     }
 }
