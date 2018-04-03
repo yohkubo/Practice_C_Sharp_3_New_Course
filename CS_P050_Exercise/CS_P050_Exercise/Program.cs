@@ -10,18 +10,15 @@ namespace CS_P050_Exercise
     {
         static void Main(string[] args)
         {
-            IQuittable quittable = new Employee() {FirstName = "Yohei", LastName = "Kubo" };
-            
-            quittable.Quit();
-            Console.ReadLine();
-
-
-            // For test
-            //Employee employee = new Employee() { FirstName="Ken", LastName="Saga" };
-            //employee.SayName();
-            //employee.Quit();
+            // Wrong code
+            //IQuittable quittable = new Employee() {FirstName = "Yohei", LastName = "Kubo" };
+            //quittable.Quit(person);
             //Console.ReadLine();
             
+            Employee employee = new Employee() { FirstName = "Ken", LastName = "Saga" };
+            employee.Quit(employee);
+            Console.ReadLine();
+
         }
     }
 }
