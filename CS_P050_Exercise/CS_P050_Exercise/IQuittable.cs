@@ -8,6 +8,7 @@ namespace CS_P050_Exercise
 {
     interface IQuittable
     {
-        void Quit(Person person);
+        void Quit();
+      
     }
 }

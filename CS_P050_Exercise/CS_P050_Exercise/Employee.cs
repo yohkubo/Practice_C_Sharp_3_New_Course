@@ -13,7 +13,7 @@ namespace CS_P050_Exercise
             Console.WriteLine("Employee's Name: {0} {1}", FirstName, LastName);
         }
 
-        public void Quit(Person person)
+        public void Quit()
         {
             Console.WriteLine("{0} {1}, You have quit the job...", FirstName, LastName); 
             
