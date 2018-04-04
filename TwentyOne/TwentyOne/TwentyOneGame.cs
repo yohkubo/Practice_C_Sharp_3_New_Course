@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TwentyOne
 {
-    class TwentyOneGame : Game
+    public class TwentyOneGame : Game
     {
         public override void Play()
         {
